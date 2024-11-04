@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wym1", "wym1\wym1.csproj", "{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF81A8F-C2E1-4F91-84C7-7EE4E31341EE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB98D82-0BEF-4C8E-B796-D6A88CA03AF8}
+	EndGlobalSection
+EndGlobal

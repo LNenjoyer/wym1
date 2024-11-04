@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wym1.MainPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <DatePicker 
+                x:Name="dpData1"
+                MinimumDate="2003-02-01"/>
+            <Entry x:Name="Ilosc" Placeholder="Ile waluty chcesz wymienić" Text=""/>
+            <Picker x:Name="wybierzwalute1"
+                    
+                    Title="Wybierz">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>USD</x:String>
+                        <x:String>EUR</x:String>
+                        <x:String>CHF</x:String>
+                        <x:String>GBP</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="wybierzwalute2"
+                    
+                    Title="Wybierz">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>USD</x:String>
+                        <x:String>EUR</x:String>
+                        <x:String>CHF</x:String>
+                        <x:String>GBP</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button
+   x:Name="Walutaa1"
+   Text="Wybrana waluta" 
+   SemanticProperties.Hint="Counts the number of times you click"
+   Clicked="Bcurrency1"
+   HorizontalOptions="Fill" 
+/>
+            <Label Text="Ile otrzymasz przeliczając, (na polskie jako posrednika)"/>
+            <Label x:Name="textCurrency1" Text=""></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
